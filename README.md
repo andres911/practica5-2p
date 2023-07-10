@@ -1,3 +1,56 @@
+# Creamos un repositorio en el docker hub
+
+![image](https://github.com/andres911/practica5-2p/assets/56493087/3bfd6066-8c08-4479-aa2f-29d48cbec58e)
+
+# Luego generamos un token en la configuracion del perfil de dockerhub
+## Esto con el fin de poder conectarse a la cuenta de docker
+
+![image](https://github.com/andres911/practica5-2p/assets/56493087/b734ea96-9ddd-4be9-a0fd-60b47ed74071)
+
+# Creamos las variables de los secrets actions
+## Docker_user y Docker_Password
+
+![image](https://github.com/andres911/practica5-2p/assets/56493087/dc6fbfcf-50ca-4a6f-95b7-d1948fb4fa46)
+
+# Luego nos dirigimos a actions
+## Y buscamos docker image
+Y colocamos la configuracion necesaria para poder hacer cambios y estos se suban al repositorio de dockerhub
+
+![image](https://github.com/andres911/practica5-2p/assets/56493087/628163fb-8efd-48d2-805b-8775dd83281f)
+
+![image](https://github.com/andres911/practica5-2p/assets/56493087/e66f9e0d-783e-4fd4-a20a-5d8cbdff74db)
+
+# Para que esto de aqui funcione debemos crear un archivo de dockerfile del proyecto
+## Hacemos una prueba de que el proyecto este perfectamente dockerizado
+## En caso de estar mal dockerizado, el cambio no podra subirse al docker hub
+
+![image](https://github.com/andres911/practica5-2p/assets/56493087/b5621e47-6d52-462e-9ed6-a4c714633e03)
+
+# Ahora con el proyecto perfectamente dockerizado podemos realizar cambios y subirlos al github
+
+![image](https://github.com/andres911/practica5-2p/assets/56493087/f7b9cca0-33d7-4bd5-af86-2aa96bef2d76)
+
+![image](https://github.com/andres911/practica5-2p/assets/56493087/0cc00c41-f758-4bb9-a149-804cbc457e7c)
+
+# Luego el action comenzara actuar para subir el cambio al dockerhub
+
+![image](https://github.com/andres911/practica5-2p/assets/56493087/3709a7f2-dbe1-410f-8690-21c05774dbbf)
+
+![image](https://github.com/andres911/practica5-2p/assets/56493087/9cd3f525-d4d7-44fd-8c25-ecd36ba753b4)
+
+![image](https://github.com/andres911/practica5-2p/assets/56493087/ddc10da6-5f16-4ca1-8ce0-a28d06e67e3e)
+
+# Una vez terminada y ver que no hay error el cambio sale que se subio correctamente
+
+![image](https://github.com/andres911/practica5-2p/assets/56493087/97e2ee46-58ad-4268-8d28-e1d492f9b2f6)
+
+# Luego podemos revisar que se creo una nueva version de la imagen en el dockerhub
+
+![image](https://github.com/andres911/practica5-2p/assets/56493087/46d622b5-4c84-4f6f-bcbe-10bfa107231c)
+
+
+
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
